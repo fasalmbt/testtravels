@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  *{
+    margin:0;
+    padding :0;
+    font: 'Open Sans', sans-serif;
+  }
+  .travels-container{
+    @apply w-[85vw] xl:w-[95vw] m-auto;
+  }
+  
+  .button-emrald{
+    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-400 rounded-full text-lg sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white sm:w-48;
+  }
+
+  .navbar-white {
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+  
+}
