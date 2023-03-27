@@ -15,7 +15,7 @@ const HeroBan = ({ hero: { title, subTitle, text, btn1, btn2, img } }) => {
                     <p className='text-base my-5 text-center sm:text-sm'>
                         {text}
                     </p>
-                    <div className="flex flex-col items-center bg-emerald-100 rounded-md shadow-lg px-6 py-4 mb-6">
+                    <div className="flex flex-col items-center bg-blue-300 rounded-md shadow-lg px-6 py-4 mb-6">
                         <div className="w-full mb-2">
                             <label htmlFor="destination" className="sr-only">Destination</label>
                             <input type="text" id="destination" name="destination" placeholder="Where do you want to go?" className="w-full px-4 py-2 border border-transparent rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent" required />
