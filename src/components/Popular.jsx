@@ -14,8 +14,7 @@ const Popular = ({ popularlinks }) => {
 
     return (
         <div className="flex flex-col items-center justify-center py-12">
-            <h2 className="text-3xl font-extrabold text-gray-900">Exclusive Deals</h2>
-            <p className="mt-4 text-gray-600 max-w-2xl text-center">Get these amazing deals while they last!</p>
+            <h2 className="text-3xl font-extrabold text-gray-900">Popular plans</h2>
             <div className="mt-10 max-w-6xl w-full grid gap-5 lg:grid-cols-3 lg:max-w-none">
                 {popularlinks.map((popularlink) => (
                     <div key={popularlink.couponcode} className="flex flex-row rounded-lg shadow-lg overflow-hidden">
